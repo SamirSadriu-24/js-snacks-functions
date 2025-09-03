@@ -5,9 +5,16 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function firstLetterSelector (names){
+    for (let i = 0; i < names.length; i++) {
+        console.log(names[i][0]);
+    }
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(firstLetterSelector(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
